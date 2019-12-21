@@ -11,4 +11,11 @@ import scrapy
 class MindItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    movie_rank = scrapy.Field()
+    movie_name = scrapy.Field()
+    movie_star = scrapy.Field()
+    movie_score = scrapy.Field()
+    movie_describe = scrapy.Field()
+    movie_pic = scrapy.Field()
+
+
